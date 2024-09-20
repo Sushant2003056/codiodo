@@ -1,13 +1,10 @@
 import java.util.Scanner;
-
-// Custom exception for negative deposits
 class NegativeDepositException extends Exception {
     public NegativeDepositException(String message) {
         super(message);
     }
 }
 
-// Bank class
 class Bank {
     private double balance;
 
@@ -28,7 +25,6 @@ class Bank {
     }
 }
 
-// Main class to run the program
 public class Main {
     public static void main(String[] args) {
         Bank bank = new Bank();
